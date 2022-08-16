@@ -28,4 +28,4 @@ jobs:
  
     - name: Start
       run: |
-        npm start
+        npm start:dev
