@@ -1,13 +1,13 @@
  name: Node. js
 
  on:
-    push:
-         branches: [ main ]
-    pull_request:
-          branches: [ main ]
-
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+    
  jobs:
-    builds:
+   builds:
 
          run-on: ubuntu-latest
   
