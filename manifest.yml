@@ -12,12 +12,12 @@ features:
     always_online: true
   slash_commands:
     - command: /hello
-      url: https://184c-103-157-149-88.in.ngrok.io/slack/command
+      url: https://ae2b-103-157-149-215.in.ngrok.io/slack/command
       description: WELCOME NAGARAJU
       should_escape: false
 oauth_config:
   redirect_urls:
-    - https://184c-103-157-149-88.in.ngrok.io/slack/oauth_redirect
+    - https://ae2b-103-157-149-215.in.ngrok.io/slack/oauth_redirect
   scopes:
     bot:
       - chat:write
