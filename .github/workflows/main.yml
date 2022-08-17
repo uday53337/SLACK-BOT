@@ -25,4 +25,4 @@ jobs:
       run: |
         npm install
         npm run build --if-present
-        npm start:dev
+        npm run start:dev
