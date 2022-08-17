@@ -24,4 +24,3 @@ jobs:
     - name: npm install, start
       run: |
         npm install
-        npm run start:dev
